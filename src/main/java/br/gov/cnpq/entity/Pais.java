@@ -19,8 +19,8 @@ import org.springframework.data.solr.core.mapping.SolrDocument;
 public class Pais {
 
     @Id
-    @Indexed(name = "idPais", type = "string")
-    private String idPais;
+    @Indexed(name = "idPais", type = "integer")
+    private Integer idPais;
 
     @Indexed(name = "nome", type = "string")
     private String nome;

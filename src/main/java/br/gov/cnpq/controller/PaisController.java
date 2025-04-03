@@ -19,13 +19,13 @@ import java.util.List;
 @RequestMapping(value = "/v1/pais")
 public class PaisController {
 
-    @Autowired
-    private PaisService paisService;
-
-    @GetMapping("/pais/seach")
-    public List<Pais> seachPaises(@RequestParam(value = "pagina", required = true) Integer pagina, @RequestParam(value = "tamanho", required = true) Integer tamanho){
-       paisService.encontrarTodos(pagina.intValue(),tamanho.intValue());
-        return null;
-    }
+//    @Autowired
+//    private PaisService paisService;
+//
+//    @GetMapping("/pais/seach")
+//    public List<Pais> seachPaises(@RequestParam(value = "pagina", required = true) Integer pagina, @RequestParam(value = "tamanho", required = true) Integer tamanho){
+//       paisService.encontrarTodos(pagina.intValue(),tamanho.intValue());
+//        return null;
+//    }
 
 }

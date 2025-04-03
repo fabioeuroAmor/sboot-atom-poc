@@ -4,7 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootApplication
+//@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "br.gov.cnpq")
 public class SbootAtomPocApplication {
 
 	public static void main(String[] args) {
